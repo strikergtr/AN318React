@@ -10,15 +10,15 @@ export default defineConfig({
     includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
     manifest:
     {
-      name: "My React PWA",
-      short_name: 'ReactPWA',
-      description: 'A React app with Vite + PWA',
+      name: "Weather Report",
+      short_name: 'AN318',
+      description: 'แอบพลิเคชัน สำหรับ ดูสภาพอากาศ',
       theme_color: '#ffffff',
       icons:
       [
         {
           src:'pwa-192x192.png',
-          sizes: '192x192',
+          sizes: '256x256',
           type: 'image/png',
         },
         {
